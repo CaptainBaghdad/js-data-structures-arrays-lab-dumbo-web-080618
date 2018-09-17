@@ -33,7 +33,7 @@ function appendDriver(name){
  }
  
  function removeLastDriver(){
-   let newarr = 
+   return drivers.pop();
  }
 
 
