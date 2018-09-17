@@ -33,7 +33,7 @@ function appendDriver(name){
  }
  
  function removeLastDriver(){
-   return drivers.pop();
+   return drivers.slice(0,);
  }
 
 
